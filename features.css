@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fb;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #f0f0f5;
+    height: 182vh;
+    padding: 20px;
+    display: top;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .sidebar ul a{
+    text-decoration: none;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar li.active,
+  .sidebar li:hover {
+    background-color: #e0e0ff;
+    border-radius: 5px;
+  }
+  
+  .account {
+    font-size: 14px;
+    color: #555;
+    display: bottom;
+    justify-content: bottom;
+  }
+  
+  main {
+    flex: 1;
+    padding: 40px;
+    background-color: white;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .core-tech {
+    margin-top: 30px;
+  }
+  
+  .tech-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .tech-card {
+    background-color: #f4f4ff;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .design-section {
+    margin-top: 40px;
+  }
+  
+  .design-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .design-row img {
+    width: 60%;
+    border-radius: 12px;
+  }
+  
+  .design-card {
+    background-color: #f4f4ff;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+  }
+  
+  .comparison {
+    margin-top: 40px;
+  }
+  
+  .comparison table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .comparison td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .question-form {
+    margin-top: 40px;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f4f8ec;
+    width: 100%;
+    padding: 10px 35px 10px 10px; /* space for the icon on the right */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #5c4dff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+
+  
+  .form i {
+    position: absolute;
+    right: 105px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none; /* makes sure clicking the icon doesn’t block the input */
+  }
+  
+ 
